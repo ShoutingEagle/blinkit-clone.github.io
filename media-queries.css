@@ -1,0 +1,727 @@
+@media screen and (min-width:1021px){
+    .below-1020px-header{
+        display: none;
+    }
+
+    .below-1020px-main{
+        display: none;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:1020px){
+   
+    .above-1020px-header{
+        display:none;
+    }
+
+    .above-1020px-main{
+        display:none;
+    }
+
+    .below-1020px-header{
+        position: relative;
+    }
+
+    .wrapper-parent-container{
+        width: 100vw;
+        background-color: white;
+        position: fixed;
+        z-index: 1000;
+    }
+
+    .hke542{
+        padding-top: 128px;
+    }
+
+    .wrapper-navbar-below{
+        height: 68px;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 40px;
+        margin-right: 40px;
+        
+    }
+
+    .delivery-location img{
+        height: 12px;
+        margin-left: 5px;
+        
+    }
+   
+    .login-image img{
+        width: 26px;
+        height: 26px;
+    }
+
+
+    .search-bar-container{
+        margin:0 16px;
+        height: 50px;
+        gap: 8px;
+        border: 1px solid rgb(232, 232, 232);
+        border-radius: 12px;
+        background: rgb(248, 248, 248);
+        color: rgb(130, 130, 130);
+        box-shadow: none;
+        justify-content: start;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .search-bar-container img{
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+    }
+
+    input{
+        width: 89vw;
+        height: 30px;
+        background: transparent;
+        border: 0;
+        outline: 0;
+
+    }
+    
+    .sale{
+        margin: 20px 10px;
+
+    }
+
+    .sale img{
+        border-radius: 12px;
+        width: 98vw;
+        height: 527px;
+    }
+
+
+    .container-grocery{
+        overflow: auto;
+        width: 99vw;
+        height: 50vh;
+    }
+
+    .container-grocery-child img{
+        width: 270px;
+        height: 359px;
+    }
+
+    .wrapper-bestseller{
+        overflow: auto;
+    }
+
+    .best-seller{
+        margin-left: 12px;
+    }
+
+    .content{
+        height: 481px;
+        width: 359px;
+    }
+
+
+    .wrapper-main-container{
+        height: 65vh;
+        width: 100vw;
+    }
+
+    .description{
+        height: 35px;
+        font-size: 17px;
+        margin-top: 23px;
+        margin-left: 10px;
+        font-weight: var(--fw-700);
+    }
+
+    .best-seller-image img{
+        height: 359px;
+        border: 0.5px solid rgb(232, 232, 232);
+        border-radius: 12px;
+    }
+
+    .best-seller-description{
+        margin: 0 -10px;
+        padding: 0;
+    }
+
+
+    .shop-by-category-element-containter{
+        margin-right: 10px;
+    }
+
+    .wrapper-shop-by-element{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .shop-by-category-parents{
+        display: flex;
+        width: 243px;
+        height: 111px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .shop-by-category-images{
+        width: 24vw;
+        height: 12vh;
+        background-color:rgb(229 243 243) ;
+        justify-content: center;
+        border-radius: 12px;
+    }
+
+    .shop-by-category-images img{
+        width: 90px;
+    }
+
+    .shop-by-category-details{
+        margin-top: 5px;
+        font-size: 13px;
+        font-weight: var(--fw-500);
+        color: rgb(31 31 31);
+    }
+
+
+    .element-cards-container{
+        display: flex;
+        margin-left:10px;
+        overflow: auto;
+        column-gap: 10px;
+    }
+
+    .element-cards{
+        
+        width: 238px;
+        height: 276px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: lightpink;
+    }
+
+    .element-image{
+        width: 238px;
+        height: 238px;
+    }
+
+
+    .element-image img{
+        width: 237px;
+        height: 237px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .description-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-size: 13px;
+        margin-top: 6px;
+        font-weight: 600;
+        color: #1F1F1F;
+    }
+
+    .big-summer-fest-wrapper{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 20px;
+    }
+
+    .big-summer-fest-container{
+        margin-left: 10px;
+        margin-right: 10px;
+        row-gap: 10px;
+        overflow: auto;
+    }
+
+    .big-summer-fest-element{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 12px;
+    }
+
+    .big-summer-fest-child{
+        width: 35vw;
+        height: 16vh;
+    }
+
+    .big-summer-fest-child img{
+        width: 35vw;
+        
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .big-summer-fest-des{
+        text-align: center;
+        color: #1F1F1F;
+        font-size: 13px;
+    }
+
+
+    .brands-in-focus-elements{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        row-gap: 10px;
+    }
+
+    .brands-in-focus-elements img{
+        border-radius: 20px;
+        width: 98vw;
+        height: 35vh;
+    }
+
+    .covered-section-element{
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+    }
+
+    .covered-section-element{
+        
+        
+        margin-left: 10px;
+    }
+
+    .covered-section-element img{
+        width: 48.5vw;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    
+    .covered-des{
+        color: #1F1F1F;
+        font-size: 12px;
+        text-align: center;
+    }
+
+
+    .shop-by-brand-images{
+        display: flex;
+        margin-left:10px;
+        gap: 10px;
+        overflow: auto;
+    }
+
+    .shop-by-brand-images img{
+        width: 237px;
+        height: 308px;
+    }
+
+
+}
+
+@media screen and (max-width:768px){
+
+    .best-seller-image img{
+        height: 264px;
+        border: 0.5px solid rgb(232, 232, 232);
+        border-radius: 12px;
+    }
+
+    .content{
+        height: 481px;
+        width: 264px;
+    }
+
+    .sale {
+        margin: -54px 6px;
+    }
+
+    .sale img{
+        border-radius: 12px;
+        width: 98vw;
+        height: 394px;
+        margin-bottom: 86px;
+    }
+
+    .container-grocery-child img {
+        width: 201px;
+        height: 268px;
+    }
+    
+    .container-grocery {
+        overflow: auto;
+        width: 99vw;
+        height: 34vh;
+    }
+
+    .shop-by-category-parents {
+        margin-top: 13px;
+        margin-left: 5px;
+    }
+
+    .shop-by-category-details{
+        margin-top: 5px;
+        font-size: 8px;
+        font-weight: var(--fw-500);
+        color: rgb(31 31 31);
+    }
+
+    .element-image {
+        width: 136px;
+        height: 134px;
+    }
+
+    .element-image img {
+        width: 18vw;
+        height: 16vh;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .big-summer-fest-child img {
+        width: 28vw;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .big-summer-fest-child {
+        width: 33vw;
+        height: 15vh;
+    }
+
+    .brands-in-focus-elements img {
+        border-radius: 20px;
+        width: 98vw;
+        height: 28vh;
+    }
+
+    .shop-by-brand-images img {
+        width: 154px;
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width:640px){
+    .sale img {
+        border-radius: 12px;
+        width: 98vw;
+        height: 325px;
+        margin-bottom: 86px;
+    }
+}
+
+@media screen and (max-width:480px){
+
+    .best-seller-image img{
+        height: 173px;
+        border: 0.5px solid rgb(232, 232, 232);
+        border-radius: 12px;
+    }
+
+    .content{
+        height: 481px;
+        width: 173px;
+    }
+
+    .wrapper-main-container {
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .sale {
+        margin: -54px 6px;
+    }
+
+    .sale img{
+        border-radius: 12px;
+        width: 98vw;
+        height: 241px;
+        margin-bottom: 86px;
+    } 
+
+    .container-grocery-child img {
+        width: 123px;
+        height: 164px;
+    }
+    
+    .container-grocery {
+        overflow: auto;
+        width: 99vw;
+        height:21vh;
+    }
+
+    .shop-by-category-parents {
+        margin-top: 13px;
+        margin-left: 5px;
+    }
+
+    .shop-by-category-images {
+        width: 19vw;
+        height: 12vh;
+        background-color: rgb(229 243 243);
+        justify-content: center;
+        border-radius: 12px;
+    }
+
+    .element-image {
+        width: 101px;
+        height: 98px;
+    }
+
+    .element-image img {
+        width: 21vw;
+        height: 12vh;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .big-summer-fest-child img {
+        width: 28vw;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .big-summer-fest-child {
+        width: 33vw;
+        height: 15vh;
+    }
+
+    .brands-in-focus-elements img {
+        border-radius: 20px;
+        width: 98vw;
+        height: 19vh;
+    }
+
+    .covered-section-element img {
+        width: 46.5vw;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    .shop-by-brand-images img {
+        width: 108px;
+        height: 140px;
+    }  
+}
+
+
+@media screen and (max-width:400px){
+
+    .best-seller-image img{
+        height: 173px;
+        border: 0.5px solid rgb(232, 232, 232);
+        border-radius: 12px;
+    }
+
+    .content{
+        height: 481px;
+        width: 173px;
+    }
+
+    .wrapper-main-container {
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .sale {
+        margin: -54px 6px;
+    }
+
+    .sale img{
+        border-radius: 12px;
+        width: 98vw;
+        height: 189px;
+        margin-bottom: 67px;
+    } 
+
+    .container-grocery-child img {
+        width: 123px;
+        height: 164px;
+    }
+    
+    .container-grocery {
+        overflow: auto;
+        width: 99vw;
+        height:21vh;
+    }
+
+    .element-cards-container {
+        display: flex;
+        margin-left: 10px;
+        overflow: auto;
+        column-gap: 2px;
+    }
+
+    .shop-by-category-parents {
+        margin-top: 13px;
+        margin-left: 5px;
+    }
+
+    .shop-by-category-images {
+        width: 19vw;
+        height: 12vh;
+        background-color: rgb(229 243 243);
+        justify-content: center;
+        border-radius: 12px;
+    }
+
+    .element-image {
+        width: 101px;
+        height: 98px;
+    }
+
+    .element-image img {
+        width: 21vw;
+        height: 12vh;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .big-summer-fest-child img {
+        width: 28vw;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .big-summer-fest-child {
+        width: 33vw;
+        height: 15vh;
+    }
+
+    .brands-in-focus-elements img {
+        border-radius: 20px;
+        width: 98vw;
+        height: 13vh;
+    }
+
+    .covered-section-element img {
+        width: 46.5vw;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    .shop-by-brand-images img {
+        width: 108px;
+        height: 140px;
+    }  
+}
+
+@media screen and (max-width:360px){
+
+    .best-seller-image img{
+        height: 150px;
+        border: 0.5px solid rgb(232, 232, 232);
+        border-radius: 12px;
+    }
+
+
+    .Product_UpdatedPrice {
+    margin: -2px 31px;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+    .Product_Updated {
+        color: rgb(31, 31, 31);
+        font-weight: 600;
+        font-size: 11px;
+        margin: 10px;
+    }
+
+    .content{
+        height: 481px;
+        width: 173px;
+    }
+
+    .wrapper-main-container {
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .sale {
+        margin: -54px 6px;
+    }
+
+    .sale img{
+        border-radius: 12px;
+        width: 98vw;
+        height: 189px;
+        margin-bottom: 67px;
+    } 
+
+    .container-grocery-child img {
+        width: 123px;
+        height: 164px;
+    }
+    
+    .container-grocery {
+        overflow: auto;
+        width: 99vw;
+        height:21vh;
+    }
+
+    .element-cards-container {
+        display: flex;
+        margin-left: 10px;
+        overflow: auto;
+        column-gap: 2px;
+    }
+
+    .shop-by-category-parents {
+        margin-top: 13px;
+        margin-left: 5px;
+    }
+
+    .shop-by-category-images {
+        width: 19vw;
+        height: 12vh;
+        background-color: rgb(229 243 243);
+        justify-content: center;
+        border-radius: 12px;
+    }
+
+    .element-image {
+        width: 101px;
+        height: 98px;
+    }
+
+    .element-image img {
+        width: 21vw;
+        height: 12vh;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .big-summer-fest-child img {
+        width: 28vw;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .big-summer-fest-child {
+        width: 33vw;
+        height: 15vh;
+    }
+
+    .brands-in-focus-elements img {
+        border-radius: 20px;
+        width: 98vw;
+        height: 13vh;
+    }
+
+    .covered-section-element img {
+        width: 46.5vw;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+    .shop-by-brand-images img {
+        width: 108px;
+        height: 140px;
+    }  
+}
